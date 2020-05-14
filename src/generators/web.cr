@@ -152,11 +152,15 @@ class LuckyCli::Generators::Web
     append_text to: "shard.yml", text: <<-DEPS_LIST
     dependencies:
       lucky:
-        github: luckyframework/lucky
-        version: ~> 0.21
+        github: bcardiff/lucky
+        branch: bcardiff/use-fork
+        # github: luckyframework/lucky
+        # version: ~> 0.21
       authentic:
-        github: luckyframework/authentic
-        version: ~> 0.5.1
+        github: bcardiff/authentic
+        branch: bcardiff/use-fork
+        # github: luckyframework/authentic
+        # version: ~> 0.5.1
       carbon:
         github: luckyframework/carbon
         version: ~> 0.1.1
