@@ -180,8 +180,10 @@ class LuckyCli::Generators::Web
     if generate_auth?
       append_text to: "shard.yml", text: <<-DEPS_LIST
         jwt:
-          github: crystal-community/jwt
-          version: ~> 1.4.0
+          github: bcardiff/jwt
+          branch: crystal/0.35.0
+          # github: crystal-community/jwt
+          # version: ~> 1.4.0
       DEPS_LIST
     end
   end
